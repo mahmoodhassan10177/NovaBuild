@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern Solutions for a Better Tomorrow</title>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/457d9c27ac.js" crossorigin="anonymous"></script>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Website Icon -->
+  <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon" />
+  <!-- connect globals.css -->
+  <link rel="stylesheet" href="globals.css" />
+  <!-- daisy ui -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <!-- navbar -->
+  <nav id="nav" class="container mx-auto">
+    <div class="navbar bg-base-100 border-b border-b-[#313e4d]">
+      <div class="navbar-start">
+        <!-- Mobile Menu -->
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            ☰
+          </div>
+
+          <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Logo -->
+        <a href="#nav" class="btn btn-ghost text-xl">
+          <img src="assets/favicon.svg" width="35px" alt="logo" />
+          Nova<span class="text-[#2A7DFA]">Build</span>
+        </a>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Button -->
+      <div class="navbar-end">
+        <a href="#contact" class="py-2 font-medium px-4 rounded-xl bg-[#2A7DFA]">
+          Get Started
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- home section -->
+  <section id="home" class="container mx-auto my-10 lg:flex justify-center items-center gap-4">
+    <!-- text content -->
+    <div>
+      <h1 class="uppercase text-1xl text-[#2A7DFA] pb-2">Build your ideas</h1>
+      <h2 class="text-5xl font-extrabold pb-4 leading-14">
+        Modern Solutions<br />
+        for a <span class="text-[#2A7DFA]">Better Tomorrow</span>
+      </h2>
+      <p class="text-[#7C8FB0] mb-8">
+        NovaBuild helps you create amazing Websites and web<br />
+        apps with clean code, modern design and powerful tools.<br />
+        Turn your ideas into reality, easily.
+      </p>
+      <!-- btn -->
+      <div class="flex gap-4">
+        <button class="py-2 px-4 font-medium rounded-xl bg-[#2A7DFA]">Start Building <i class="fa-solid fa-chevron-right"></i></button>
+        <button class="py-2 px-4 font-medium rounded-xl bg-none border border-[#2A7DFA]">Learn More</button>
+      </div>
+    </div>
+    <!-- image content -->
+    <div>
+      <img src="assets/hero-laptop.jpg" width="100%" class="rounded-2xl" alt="Laptop and Coffee" />
+    </div>
+  </section>
+  <!-- feature section -->
+  <section id="features" class="container mx-auto pb-11">
+    <!-- text content -->
+    <div class="text-center pb-7">
+      <h1 class="uppercase text-1xl text-[#2A7DFA] pb-2 mt-12">
+        Our features
+      </h1>
+      <h2 class="font-extrabold text-3xl pb-2">Everything You Need</h2>
+      <p class="text-[#7C8FB0]">
+        Powerful features to help you build, design and grow your online
+        presence.
+      </p>
+    </div>
+    <!-- card section -->
+    <div class="lg:flex gap-4 items-center justify-center mx-auto">
+      <!-- card 1 -->
+      <div class="bg-[#101B2B] py-7 px-7 rounded-2xl border border-[#313e4d]">
+        <img class="pb-3" src="assets/code-icon.svg" width="60px" alt="Code" />
+        <h1 class="font-medium text-2xl pb-3">Clean Code</h1>
+        <p class="text-[#7C8FB0]">
+          Write clean, organized and<br />
+          maintainable code with ease.
+        </p>
+      </div>
+      <!-- card 2 -->
+      <div class="bg-[#101B2B] py-7 px-7 rounded-2xl border border-[#313e4d]">
+        <img class="pb-3" src="assets/speed-icon.svg" width="60px" alt="Speed" />
+        <h1 class="font-medium text-2xl pb-3">Fast Performance</h1>
+        <p class="text-[#7C8FB0]">
+          Enjoy lightning fast speed<br />
+          and smooth user experience.
+        </p>
+      </div>
+      <!-- card 3 -->
+      <div class="bg-[#101B2B] py-7 px-7 rounded-2xl border border-[#313e4d]">
+        <img class="pb-3" src="assets/responsive-icon.svg" width="60px" alt="Responsive" />
+        <h1 class="font-medium text-2xl pb-3">Responsive Design</h1>
+        <p class="text-[#7C8FB0]">Looks great on all devices,<br> from mobile to desktop.</p>
+      </div>
+      <!-- card 4 -->
+      <div class="bg-[#101B2B] py-7 px-7 rounded-2xl border border-[#313e4d]">
+        <img class="pb-3" src="assets/secure-icon.svg" width="60px" alt="Secure" />
+        <h1 class="font-medium text-2xl pb-3">Secure & Reliable</h1>
+        <p class="text-[#7C8FB0]">Your data and users are<br> always protected.</p>
+      </div>
+    </div>
+  </section>
+  <!-- about section -->
+  <section id="about" class="mx-auto container justify-center items-center lg:flex gap-8 pb-10">
+    <!-- image content -->
+    <div>
+      <img class="rounded-2xl" src="assets/about-laptop.jpg" alt="Text Laptop" />
+    </div>
+    <!-- text content -->
+     <div>
+      <h1 class="uppercase text-1xl text-[#2A7DFA] pb-2">About us</h1>
+      <h2 class="font-bold text-3xl pb-2">We are a team of passionate<br> developers.</h2>
+      <p class="text-[#7C8FB0] pb-2">At NovaBuild, we believe in the power of technology to<br> make life easier and better. We build modern, user-friendly<br> web solutions that help individuals and businesses grow<br> in the digital world.</p>
+      <button class="py-2 px-4 font-medium rounded-3xl bg-none border border-[#2A7DFA]">Learn More</button>
+     </div>
+  </section>
+  <!-- pricing section -->
+   <section>
+    <!-- text content -->
+     <div>
+      <h1></h1>
+     </div>
+   </section>
+</body>
+</html>

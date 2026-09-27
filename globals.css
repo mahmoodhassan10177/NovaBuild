@@ -1,0 +1,31 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* navbar */
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #2A7DFA;
+  border-radius: 999px;
+  transform: translateX(-50%);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px #2A7DFA;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 60%;
+}
